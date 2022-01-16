@@ -11,7 +11,7 @@ class PuzzleTitle extends StatelessWidget {
   const PuzzleTitle({
     Key? key,
     required this.title,
-    this.color = PuzzleColors.primary1,
+    this.color = Colors.red,
   }) : super(key: key);
 
   /// The title to be displayed.
